@@ -1,5 +1,5 @@
 ## First project is ***CLOCK*** which displays time in both 12hr and 24hr format (toggled on click)
-## Second Project is ***CALCULATOR*** which performs basic mathermatical opeartions.
+## Second Project is ***CALCULATOR*** which performs basic mathematical operations.
 ## Third Project is ***TO-DO LIST*** which takes and saves user inputs.
 
 ## SCREENSHOT:
