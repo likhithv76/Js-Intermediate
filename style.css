@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Bungee+Spice&family=Foldit:wght@100..900&family=Gugi&family=Noto+Color+Emoji&family=Play:wght@400;700&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Victor Mono", monospace;
+}
+
+.clockDiv{
+    background-color: black;
+    height: 10em;
+    width: 100%;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1em solid grey;
+}
+.clockDiv:hover{
+    background-color: black;
+}
+.clock{
+    font-size: 6em;
+}
+
+/* calculator */
+table{
+    margin: 10px;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+}
+table td .inputBox{
+   width: 20em;
+   height: 4.5em;
+   color: black;
+   background-color: white;
+   font-size: larger;
+   
+}
+table td input{
+    padding: 2em 3em;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+table td input:hover{
+opacity: 0.9;
+}
+/* To-do List */
+
+.container {
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+ display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+.secondDiv{
+    display: flex;
+    margin: 30px;
+
+}

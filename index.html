@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Js-Intermediate</title>
+</head>
+<body>
+    <!-- Digital Clock -->
+     <div>
+        <button onclick="toggleClockFormat()" class="clockDiv">
+            <div>
+                <div>
+                    <div class="clock" id="clock24"></div>
+                    <div class="clock" id="clock12" style="display: none;"></div>
+                </div>
+            </div>
+        </button>
+     </div>
+<div class="secondDiv">
+    <!-- Calculator -->
+<div>
+    <table border="0">
+    <tr>
+        <td colspan="3"><input type="text" class="inputBox" id="result"></td>
+        <td><input type="button" value="c" onclick="clr()" style="background-color: gray; border:1px solid gray; margin-bottom: 10px;"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="1" onclick="display('1')"></td>
+        <td><input type="button" value="2" onclick="display('2')"></td>
+        <td><input type="button" value="3" onclick="display('3')"></td>
+        <td><input type="button" value="/" onclick="display('/')"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="4" onclick="display('4')"></td>
+        <td><input type="button" value="5" onclick="display('5')"></td>
+        <td><input type="button" value="6" onclick="display('6')"></td>
+        <td><input type="button" value="-" onclick="display('-')"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="7" onclick="display('7')"></td>
+        <td><input type="button" value="8" onclick="display('8')"></td>
+        <td><input type="button" value="9" onclick="display('9')"></td>
+        <td><input type="button" value="+" onclick="display('+')"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="." onclick="display('.')"></td>
+        <td><input type="button" value="0" onclick="display('0')"></td>
+        <td><input type="button" value="=" style="background-color: gray; border:1px solid gray;" onclick ="equate()"></td>
+        <td><input type="button" value="*" onclick="display('*')"></td>
+    </tr>
+    
+    </table>
+    </div>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <input type="text" id="taskInput" placeholder="Enter a new task...">
+        <button onclick="addTask()">Add Task</button>
+        <ul id="taskList"></ul>
+    </div>
+</div>
+</body>
+</html>
